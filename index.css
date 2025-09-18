@@ -1,0 +1,100 @@
+body { 
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+}
+
+table {
+    border: 3px, solid, #f9528a;
+    padding: 0; 
+    margin: 0;
+    width: 750px;
+    border-collapse: collapse; 
+}
+
+th, td {
+        border-bottom: 1px solid #f9528a;
+}
+
+h1 {
+    color: #ffa8ca;
+    padding: 10px;
+    margin: 0;
+    border-spacing: 0;
+}
+
+
+h2 {
+    color: bisque;
+    background-color: #ffa8ca;
+    padding: 0;
+    border-spacing: 0;
+}
+
+th, h2 {
+    padding: 0px;
+    color: bisque;
+    text-align: center;
+    margin: 0;
+    border-spacing: 0;
+}
+
+.name {
+    font-family: monospace;
+    background-color: #ffd8e9;
+}
+
+
+.Arial {
+    font-family: Arial;
+}   
+
+.Arial.italic {
+    font-family: Arial;
+    font-style: italic;
+}   
+
+.Times {
+    font-family: "Times New Roman";
+}   
+
+.Times.italic {
+    font-family: "Times New Roman";
+    font-style: italic;
+}   
+
+.Tahoma {
+    font-family: Tahoma;
+}   
+
+.Tahoma.italic {
+    font-family: Tahoma;
+    font-style: italic;
+}   
+
+.Courier {
+    font-family: "Courier New";
+}   
+
+.Courier.italic {
+    font-family: "Courier New";
+    font-style: italic;
+}   
+
+.Verdana {
+    font-family: Verdana;
+}   
+
+.Verdana.italic {
+    font-family: Verdana;
+    font-style: italic;
+}   
+
+.georgia {
+    font-family: Georgia;
+}
+
+.georgia.italic {
+    font-family: Georgia;
+    font-style: italic;
+}
